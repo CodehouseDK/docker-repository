@@ -1,2 +1,2 @@
 Select-AzureRmSubscription -SubscriptionName "Internal Infrastructure"
-New-AzureRmResourceGroupDeployment -ResourceGroupName "dockerregistry" -TemplateFile .\proxy\azuredeploy.json -TemplateParameterFile .\proxy\azuredeploy.parameters.json -Mode Incremental
+New-AzureRmResourceGroupDeployment -ResourceGroupName "dockerregistry" -TemplateFile .\proxy\azuredeploy.json -TemplateParameterFile .\proxy\azuredeploy.parameters.json
