@@ -1,2 +1,1 @@
-Select-AzureRmSubscription -SubscriptionName "Internal Infrastructure"
-New-AzureRmResourceGroupDeployment -ResourceGroupName "dockerregistry" -TemplateFile .\proxy\azuredeploy.json -TemplateParameterFile .\proxy\azuredeploy.parameters.json
+Write-Error "Not implemeted yet...."

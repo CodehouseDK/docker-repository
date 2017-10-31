@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
     <system.webServer>
-        <proxy xdt:Transform="InsertIfMissing" enabled="true" preserveHostHeader="false" reverseRewriteHostInResponseHeaders="false" />
+        <proxy xdt:Transform="InsertIfMissing" enabled="true" timeout="00:15:00" preserveHostHeader="false" reverseRewriteHostInResponseHeaders="false" />
         <rewrite xdt:Transform="InsertIfMissing">
             <allowedServerVariables xdt:Transform="InsertIfMissing">
                 <add name="HTTP_HOST" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
